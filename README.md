@@ -19,13 +19,13 @@ $ docker compose up
 Then, run the following command in a separate terminal
 
 ```sh
-$ bash consume.sh -t <task>
+$ bash consume.sh -t <topic>
 ```
 
-The tasks are `comments` and `video-stats`. Then in a separate terminal, run the following command
+The topics are `comments` and `video-stats`. Then in a separate terminal, run the following command
 
 ```sh
-$ bash produce.sh -t <task>
+$ bash produce.sh -t <topic>
 ```
 
 ## Mics

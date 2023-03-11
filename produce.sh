@@ -3,8 +3,8 @@
 while getopts t: flag
 do
     case "${flag}" in
-        t) task=${OPTARG};;
+        t) topic=${OPTARG};;
     esac
 done
 
-python3 src/producer/producer.py $task
+python3 src/producer/producer.py $topic
